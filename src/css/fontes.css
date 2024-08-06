@@ -1,0 +1,14 @@
+@font-face {
+  font-family: "PublicPixel";
+  src: url("../fontes/PublicPixel.ttf");
+}
+
+@font-face {
+    font-family: "Chill";
+    src: url("../fontes/Chill.ttf");
+}
+
+@font-face {
+    font-family: "WinCMD";
+    src: url("../fontes/windows_command_prompt.ttf");
+}  

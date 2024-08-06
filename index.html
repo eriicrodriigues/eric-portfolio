@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfólio de Eric Rodrigues Pereira, Desenvolvedor Fullstack">
+    <meta name="keywords" content="Eric Rodrigues Pereira, Desenvolvedor Fullstack, Portfólio, Tecnologias, Projetos">
+    <title>Eric's Portfólio</title>
+    <link rel="shortcut icon" href="./src/imagens/e.svg" type="image/x-icon">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/fontes.css">
+
+    <style>
+        .svg-icon {
+            filter: invert(94%) sepia(3%) saturate(0%) hue-rotate(180deg) brightness(97%) contrast(98%);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="video-background">
+        <video autoplay muted loop>
+            <source src="./src/video/bgstar.mp4" type="video/mp4">
+            Seu navegador não suporta o formato de vídeo.
+        </video>
+    </div>
+
+    <header class="cabecalho">
+        <header class="perfil">
+            <img src="./src/imagens/perfil.jpg" id="perfil" alt="Perfil" loading="lazy">
+        </header>
+        <div class="botoes">
+            <a href="https://github.com/eriicrodriigues/" target="_blank" class="botao">
+                <img src="./src/imagens/github.svg" alt="GitHub Icon">
+            </a>
+            <a href="https://www.linkedin.com/in/eriicrodriigues/" target="_blank" class="botao">
+                <img src="./src/imagens/linkedin.svg" alt="LinkedIn Icon">
+            </a>
+        </div>
+        <div class="idioma-container">
+            <div class="idioma">
+                <button id="idioma-btn" class="idioma-btn">
+                    <img src="./src/imagens/brasil.png" alt="Português" class="idioma-img" id="idioma-img">
+                </button>
+            </div>
+        </div>
+        <div class="nome" data-lang="pt-br">
+            <h2>Eric Rodrigues Pereira</h2>
+            <h3>&lt;/Desenvolvedor Fullstack&gt;</h3>
+        </div>
+        <nav>
+            <ul class="menu" data-lang="pt-br">
+                <li>
+                    <a href="#sobre-mim">Sobre Mim</a>
+                </li>
+                <li>
+                    <a href="#techs">Tecnologias</a>
+                </li>
+                <li>
+                    <a href="#projetos"> Meus Projetos </a>
+                </li>
+            </ul>
+        </nav>
+        <div class="nome hidden" data-lang="en">
+            <h2>Eric Rodrigues Pereira</h2>
+            <h3>&lt;/Fullstack Developer&gt;</h3>
+        </div>
+        <nav>
+            <ul class="menu hidden" data-lang="en">
+                <li>
+                    <a href="#sobre-mim hidden">About Me</a>
+                </li>
+                <li>
+                    <a href="#techs hidden">Technologies</a>
+                </li>
+                <li>
+                    <a href="#projetos hidden">My Projects</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="sobre-mim" class="sobre-mim" data-lang="pt-br">
+        <h2 class="titulo">Sobre mim</h2>
+        <br>
+        <h3 class="texto">
+            <p>Olá, Sou o Eric um apaixonado por tecnologia que sempre busca entender como o mundo funciona. Minha
+                jornada começou com um curso básico de informática após alguns anos um intercâmbio nos EUA, onde
+                mergulhei no universo das startups e conheci empreendedores que mudaram minha visão sobre o futuro da
+                tecnologia.</p>
+            <br>
+            <p>Minha experiência de 8 anos no serviço militar me ensinou disciplina, liderança e resiliência –
+                qualidades que aplico tanto no campo tecnológico quanto na vida. A graduação em gestão pública
+                complementou minha formação, oferecendo uma base sólida em políticas, gerenciamento de projetos e
+                análise de dados.</p>
+            <br>
+            <p>Juntas, essas experiências moldaram minha abordagem para enfrentar desafios técnicos com determinação e
+                criatividade. Estou sempre em busca de novas soluções e aprendizado contínuo.</p>
+            <br>
+            <p>Se você compartilha essa paixão pela tecnologia e inovação, vamos nos conectar e explorar o futuro
+                juntos!</p>
+            <br>
+        </h3>
+    </section>
+
+    <section id="sobre-mim hidden" class="sobre-mim hidden" data-lang="en">
+        <h2 class="titulo">About Me</h2>
+        <br>
+        <h3 class="texto">
+            <p>Hello, I'm Eric, a technology enthusiast always looking to understand how the world works. My journey
+                started with a basic computer course and after a few years, an exchange program in the USA, where I
+                delved into the startup universe and met entrepreneurs who changed my perspective on the future of
+                technology.</p>
+            <br>
+            <p>My 8 years of military service taught me discipline, leadership, and resilience—qualities I apply both in
+                technology and in life. My degree in public management complemented my education, providing a solid
+                foundation in policies, project management, and data analysis.</p>
+            <br>
+            <p>Together, these experiences have shaped my approach to tackling technical challenges with determination
+                and creativity. I am always seeking new solutions and continuous learning.</p>
+            <br>
+            <p>If you share this passion for technology and innovation, let's connect and explore the future together!
+            </p>
+            <br>
+        </h3>
+    </section>
+
+    <section id="techs" class="techs" data-lang="pt-br">
+        <h2>Front-End</h2>
+        <div class="FrontEnd">
+            <img loading="lazy"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original-wordmark.svg"
+                width="80" height="80" class="svg-icon" />
+            <img loading="lazy"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original-wordmark.svg"
+                width="80" height="80" class="svg-icon" />
+            <img loading="lazy"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg"
+                width="80" height="80" class="svg-icon" />
+            <img loading="lazy"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg"
+                width="80" height="80" class="svg-icon" />
+            <img loading="lazy"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original-wordmark.svg"
+                width="80" height="80" class="svg-icon" />
+            <img loading="lazy"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original-wordmark.svg"
+                width="80" height="80" class="svg-icon" />
+        </div>
+        <div class="BackEnd">
+            <h2>Back-End</h2>
+            <img loading="lazy"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg"
+                width="80" height="80" class="svg-icon" />
+            <img loading="lazy"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg"
+                width="80" height="80" class="svg-icon" />
+            <img loading="lazy"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
+                width="80" height="80" class="svg-icon" />
+            <img loading="lazy"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg"
+                width="80" height="80" class="svg-icon" />
+            <img loading="lazy"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg"
+                width="80" height="80" class="svg-icon" />
+        </div>
+        <div class="Outros">
+            <h2>Outros</h2>
+            <img loading="lazy"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original-wordmark.svg"
+                width="80" height="80" class="svg-icon" />
+        </div>
+    </section>
+
+    <section id="techs hidden" class="techs hidden" data-lang="en">
+        <h2>Front-End</h2>
+        <div class="FrontEnd">
+            <img loading="lazy"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original-wordmark.svg"
+                width="80" height="80" class="svg-icon" />
+            <img loading="lazy"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original-wordmark.svg"
+                width="80" height="80" class="svg-icon" />
+            <img loading="lazy"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg"
+                width="80" height="80" class="svg-icon" />
+            <img loading="lazy"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg"
+                width="80" height="80" class="svg-icon" />
+            <img loading="lazy"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original-wordmark.svg"
+                width="80" height="80" class="svg-icon" />
+            <img loading="lazy"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original-wordmark.svg"
+                width="80" height="80" class="svg-icon" />
+        </div>
+        <div class="BackEnd">
+            <h2>Back-End</h2>
+            <img loading="lazy"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg"
+                width="80" height="80" class="svg-icon" />
+            <img loading="lazy"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg"
+                width="80" height="80" class="svg-icon" />
+            <img loading="lazy"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
+                width="80" height="80" class="svg-icon" />
+            <img loading="lazy"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg"
+                width="80" height="80" class="svg-icon" />
+            <img loading="lazy"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg"
+                width="80" height="80" class="svg-icon" />
+        </div>
+        <div class="Outros">
+            <h2>Others</h2>
+            <img loading="lazy"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original-wordmark.svg"
+                width="80" height="80" class="svg-icon" />
+        </div>
+    </section>
+
+    <section id="projetos" class="projetos" data-lang="pt-br">
+        <h2 class="titulo">Projetos</h2>
+        <div class="projetos-container">
+            <div class="projeto">
+                <img src="./src/imagens/flappy.png" alt="Flappy">
+                <a href="https://github.com/eriicrodriigues/flappy-bird-game" target="_blank">Flappy Bird em Python</a>
+            </div>
+            <div class="projeto">
+                <img src="./src/imagens/chess.png" alt="Chess">
+                <a href="https://github.com/eriicrodriigues/chess-system-java" target="_blank">Xadrez em Java</a>
+            </div>
+            <div class="projeto">
+                <img src="./src/imagens/gta.png" alt="GTA">
+                <a href="https://eriicrodriigues.github.io/projeto-gta/" target="_blank">Cópia do Site GTA V</a>
+            </div>
+            <div class="projeto">
+                <img src="./src/imagens/meet.png" alt="Meet">
+                <a href="https://github.com/eriicrodriigues/projeto-meet" target="_blank">Projeto Meet</a>
+            </div>
+            <div class="projeto">
+                <img src="./src/imagens/wpp.png" alt="Whatsapp">
+                <a href="https://github.com/eriicrodriigues/hashchat" target="_blank">Projeto WhatsApp</a>
+            </div>
+            <div class="projeto">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original-wordmark.svg"
+                    alt="Repositórios">
+                <a href="https://github.com/eriicrodriigues?tab=repositories" target="_blank">Todos Repositórios</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="projetos hidden" class="projetos hidden" data-lang="en">
+        <h2 class="titulo">Projects</h2>
+        <div class="projetos-container">
+            <div class="projeto">
+                <img src="./src/imagens/flappy.png" alt="Flappy">
+                <a href="https://github.com/eriicrodriigues/flappy-bird-game" target="_blank">Flappy Bird in Python</a>
+            </div>
+            <div class="projeto">
+                <img src="./src/imagens/chess.png" alt="Chess">
+                <a href="https://github.com/eriicrodriigues/chess-system-java" target="_blank">Chess in Java</a>
+            </div>
+            <div class="projeto">
+                <img src="./src/imagens/gta.png" alt="GTA">
+                <a href="https://eriicrodriigues.github.io/projeto-gta/" target="_blank">Copy of GTA V Website</a>
+            </div>
+            <div class="projeto">
+                <img src="./src/imagens/meet.png" alt="Meet">
+                <a href="https://github.com/eriicrodriigues/projeto-meet" target="_blank">Meet Project</a>
+            </div>
+            <div class="projeto">
+                <img src="./src/imagens/wpp.png" alt="Whatsapp">
+                <a href="https://github.com/eriicrodriigues/hashchat" target="_blank">WhatsApp Project</a>
+            </div>
+            <div class="projeto">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original-wordmark.svg"
+                    alt="Repositórios">
+                <a href="https://github.com/eriicrodriigues?tab=repositories" target="_blank">All Repositories</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="rodape" data-lang="pt-br">
+        <p>&copy; 2024 Eric Rodrigues Pereira.</p>
+        <p>Todos os direitos reservados.</p>
+        <ul>
+            <li><a href="#sobre">Sobre Mim</a></li>
+            <li><a href="#techs">Tecnologias</a></li>
+            <li><a href="#projetos">Meus Projetos</a></li>
+        </ul>
+        <p>Desenvolvido por <a href="https://www.linkedin.com/in/eriicrodriigues/" target="_blank">Eric Rodrigues
+                Pereira</a></p>
+    </footer>
+
+    <footer class="rodape hidden" data-lang="en">
+        <p>&copy; 2024 Eric Rodrigues Pereira.</p>
+        <p>All rights reserved.</p>
+        <ul>
+            <li><a href="#sobre-mim hidden">About Me</a></li>
+            <li><a href="#techs hidden">Technologies</a></li>
+            <li><a href="#projetos hidden">My Projects</a></li>
+        </ul>
+        <p>Developed by <a href="https://www.linkedin.com/in/eriicrodriigues/" target="_blank">Eric Rodrigues
+                Pereira</a></p>
+    </footer>
+
+</body>
+
+<script src="./src/js/index.js"></script>
+
+</html>
