@@ -4,11 +4,6 @@
 }
 
 @font-face {
-    font-family: "Chill";
-    src: url("../fontes/Chill.ttf");
-}
-
-@font-face {
-    font-family: "WinCMD";
-    src: url("../fontes/windows_command_prompt.ttf");
+    font-family: "Dosis";
+    src: url("../fontes/Dosis-VariableFont_wght.ttf");
 }  

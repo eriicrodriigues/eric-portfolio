@@ -39,8 +39,8 @@ html {
   opacity: 0;
   visibility: hidden;
   position: absolute;
-  top: -9999px; 
-  left: -9999px; 
+  top: -9999px;
+  left: -9999px;
 }
 
 .visible {
@@ -48,17 +48,19 @@ html {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh; 
+  height: 100vh;
   padding: 20px;
   text-align: center;
 }
 
-.sobre-mim, .techs, .projetos {
+.sobre-mim,
+.techs,
+.projetos {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh; 
+  height: 100vh;
   padding: 20px;
   text-align: center;
 }
@@ -68,12 +70,13 @@ html {
   top: 20px;
   right: 30px;
   z-index: 1000;
-  padding: 20px 45px; 
-  background-color: #e8e8e8; 
-  border-radius: 30px; 
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+  padding: 20px 45px;
+  background-color: #e8e8e8;
+  border-radius: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
   border-bottom: 0px solid transparent;
-  transition: background-color 0.3s ease, border-bottom-color 0.3s ease, opacity 0.3s ease;
+  transition: background-color 0.3s ease, border-bottom-color 0.3s ease,
+    opacity 0.3s ease;
 }
 
 .idioma-container:hover {
@@ -90,19 +93,19 @@ html {
 }
 
 .idioma-btn {
-  background-color: transparent; 
+  background-color: transparent;
   border: none;
-  padding: 0; 
+  padding: 0;
   cursor: pointer;
-  border-radius: 50%; 
-  overflow: hidden; 
+  border-radius: 50%;
+  overflow: hidden;
   transition: transform 0.3s ease;
 }
 
 .idioma-img {
-  width: 40px; 
+  width: 40px;
   height: 40px;
-  transition: transform 0.3s ease; 
+  transition: transform 0.3s ease;
 }
 
 .idioma-btn.clicked {
@@ -110,8 +113,12 @@ html {
 }
 
 @keyframes rotate {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 .idioma-btn.clicked img {
@@ -125,7 +132,7 @@ html {
   justify-content: center;
   align-items: center;
   padding: 0 80px;
-  position: relative; 
+  position: relative;
 }
 
 .botoes {
@@ -133,7 +140,7 @@ html {
   top: 20px;
   left: 20px;
   display: flex;
-  gap: 10px; 
+  gap: 10px;
   z-index: 1000;
 }
 
@@ -162,10 +169,13 @@ header {
   margin-bottom: 20px;
 }
 
-.cabecalho .nome h2, .cabecalho .nome h3 {
-  font-family: "PublicPixel";
+.cabecalho .nome h2,
+.cabecalho .nome h3 {
+  font-family: "Dosis";
   margin: 20px;
   color: #e8e8e8;
+  font-size: 45px;
+  line-height: 0.9;
 }
 
 .cabecalho .menu {
@@ -178,8 +188,8 @@ header {
 .cabecalho .menu li a {
   color: #e8e8e8;
   font-weight: bolder;
-  font-size: 15px;
-  font-family: "PublicPixel";
+  font-size: 30px;
+  font-family: "Dosis";
   text-decoration: none;
   transition: border-bottom 0.15s ease;
   padding-bottom: 5px;
@@ -200,7 +210,7 @@ header {
 }
 
 .cabecalho .botao:hover {
-  background-color: #00ff00; 
+  background-color: #00ff00;
 }
 
 .cabecalho .botao img {
@@ -209,39 +219,39 @@ header {
 }
 
 .sobre-mim {
-  font-family: "PublicPixel";
-  line-height: 1.5;
+  font-family: "Dosis";
+  line-height: 1.1;
   margin-left: 20%;
   margin-right: 20%;
   text-align: justify;
-  font-size: 15px;
+  font-size: 25px;
   opacity: 0;
   transform: translateY(50px);
-  transition: opacity 1s ease-in, transform 1s ease-in; 
+  transition: opacity 1s ease-in, transform 1s ease-in;
 }
 
 .sobre-mim.visible {
   opacity: 1;
-  transform: translateY(0); 
+  transform: translateY(0);
 }
 
 .sobre-mim .titulo {
- text-align: center;
+  text-align: center;
 }
 
 .techs {
   text-align: center;
   line-height: 4;
-  font-family: "PublicPixel";
-  font-size: 15px;
+  font-family: "Dosis";
+  font-size: 25px;
   opacity: 0;
   transform: translateY(50px);
-  transition: opacity 1s ease-in, transform 1s ease-in; 
+  transition: opacity 1s ease-in, transform 1s ease-in;
 }
 
 .techs.visible {
   opacity: 1;
-  transform: translateY(0); 
+  transform: translateY(0);
 }
 
 .projetos {
@@ -250,8 +260,8 @@ header {
   justify-content: center;
   align-items: center;
   text-align: center;
-  font-family: "PublicPixel";
-  font-size: 15px;
+  font-family: "Dosis";
+  font-size: 25px;
   opacity: 0;
   transform: translateY(50px);
   transition: opacity 1s ease-in, transform 1s ease-in;
@@ -286,8 +296,8 @@ header {
   justify-content: center;
   text-align: center;
   transition: transform 0.3s;
-  position: relative; 
-  cursor: pointer; 
+  position: relative;
+  cursor: pointer;
 }
 
 .projeto:hover {
@@ -296,7 +306,7 @@ header {
 }
 
 .projeto a {
-  display: flex; 
+  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -307,7 +317,7 @@ header {
   line-height: 1.6;
   width: 100%;
   height: 180%;
-  position: absolute; 
+  position: absolute;
   top: 0;
   left: 0;
 }
@@ -332,17 +342,17 @@ header {
   text-align: center;
   bottom: 0;
   width: 100%;
-  font-family: "PublicPixel";
-  font-size: 12px;
-  margin-top: auto; 
+  font-family: "Dosis";
+  font-size: 20px;
+  margin-top: auto;
 }
 
 .rodape ul {
   list-style: none;
   padding: 0;
   margin: 10px 0;
-  display: flex; 
-  gap: 10px; 
+  display: flex;
+  gap: 10px;
 }
 
 .rodape ul li {
@@ -393,7 +403,9 @@ header {
     width: 120px;
     height: 120px;
   }
-  .sobre-mim, .techs, .projetos {
+  .sobre-mim,
+  .techs,
+  .projetos {
     height: auto;
     padding: 15px;
   }
@@ -439,7 +451,9 @@ header {
     width: 120px;
     height: 120px;
   }
-  .sobre-mim, .techs, .projetos {
+  .sobre-mim,
+  .techs,
+  .projetos {
     height: auto;
     padding: 15px;
   }
@@ -468,7 +482,9 @@ header {
     width: 120px;
     height: 120px;
   }
-  .sobre-mim, .techs, .projetos {
+  .sobre-mim,
+  .techs,
+  .projetos {
     height: auto;
     padding: 15px;
   }
@@ -510,14 +526,17 @@ header {
     width: 100px;
     height: 100px;
   }
-  .cabecalho .nome h2, .cabecalho .nome h3 {
+  .cabecalho .nome h2,
+  .cabecalho .nome h3 {
     margin: 10px;
     font-size: 18px;
   }
   .cabecalho .menu li a {
     font-size: 12px;
   }
-  .sobre-mim, .techs, .projetos {
+  .sobre-mim,
+  .techs,
+  .projetos {
     padding: 10px;
   }
   .projeto {
