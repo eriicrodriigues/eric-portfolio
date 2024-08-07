@@ -241,7 +241,7 @@ header {
 
 .techs {
   text-align: center;
-  line-height: 4;
+  line-height: 2.5;
   font-family: "Dosis";
   font-size: 25px;
   opacity: 0;
@@ -478,6 +478,9 @@ header {
   .cabecalho {
     padding: 0 40px;
   }
+  .idioma-container:hover {
+    background-color: #fff;
+  }
   #perfil {
     width: 120px;
     height: 120px;
@@ -487,6 +490,9 @@ header {
   .projetos {
     height: auto;
     padding: 15px;
+  }
+  .techs {
+    line-height: 2;
   }
   .projeto {
     width: calc(60% - 20px);
@@ -529,15 +535,27 @@ header {
   .cabecalho .nome h2,
   .cabecalho .nome h3 {
     margin: 10px;
-    font-size: 18px;
+    font-size: 25px;
   }
   .cabecalho .menu li a {
-    font-size: 12px;
+    font-size: 20px;
+  }
+  .cabecalho .botao:hover {
+    background-color: transparent;
+  }
+  .idioma-container:hover {
+    background-color: #fff;
   }
   .sobre-mim,
   .techs,
   .projetos {
     padding: 10px;
+  }
+  .sobre-mim{
+    font-size: 13px;
+  }
+  .techs {
+    line-height: 2;
   }
   .projeto {
     width: 100%;
@@ -545,6 +563,6 @@ header {
   }
   .rodape {
     padding: 10px 20px;
-    font-size: 8px;
+    font-size: 15px;
   }
 }
