@@ -1,6 +1,9 @@
 body {
   background-color: #0b0b0b;
   color: #fff;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
 }
 
 html {
@@ -365,4 +368,164 @@ header {
 
 .rodape a:hover {
   text-decoration: underline;
+}
+
+@media (max-width: 1440px) {
+  .idioma-container {
+    padding: 5px 10px;
+    top: 10px;
+    right: 10px;
+    width: 90px;
+    height: 40px;
+  }
+  .idioma {
+    top: 10px;
+    right: 60px;
+  }
+  .botoes {
+    top: 10px;
+    left: 10px;
+  }
+  .cabecalho {
+    padding: 0 40px;
+  }
+  #perfil {
+    width: 120px;
+    height: 120px;
+  }
+  .sobre-mim, .techs, .projetos {
+    height: auto;
+    padding: 15px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .projeto {
+    width: calc(50% - 20px);
+  }
+  .idioma-container {
+    padding: 5px 10px;
+    top: 20px;
+    right: 10px;
+    width: 90px;
+    height: 40px;
+  }
+  .idioma {
+    top: 20px;
+    right: 60px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .idioma-container {
+    padding: 5px 10px;
+    top: 10px;
+    right: 10px;
+    width: 90px;
+    height: 40px;
+  }
+  .idioma {
+    top: 10px;
+    right: 60px;
+  }
+  .botoes {
+    top: 10px;
+    left: 10px;
+  }
+  .cabecalho {
+    padding: 0 40px;
+  }
+  #perfil {
+    width: 120px;
+    height: 120px;
+  }
+  .sobre-mim, .techs, .projetos {
+    height: auto;
+    padding: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .idioma-container {
+    padding: 5px 10px;
+    top: 10px;
+    right: 10px;
+    width: 90px;
+    height: 40px;
+  }
+  .idioma {
+    top: 10px;
+    right: 60px;
+  }
+  .botoes {
+    top: 10px;
+    left: 10px;
+  }
+  .cabecalho {
+    padding: 0 40px;
+  }
+  #perfil {
+    width: 120px;
+    height: 120px;
+  }
+  .sobre-mim, .techs, .projetos {
+    height: auto;
+    padding: 15px;
+  }
+  .projeto {
+    width: calc(60% - 20px);
+  }
+}
+
+@media (max-width: 480px) {
+  .idioma-container {
+    padding: 5px 10px;
+    top: 10px;
+    right: 5px;
+    width: 50px;
+    height: 20px;
+  }
+  .idioma {
+    top: 10px;
+    right: 35px;
+  }
+  .idioma-img {
+    width: 20px;
+    height: 20px;
+  }
+  .idioma-btn.clicked {
+    transform: translateX(30px);
+  }
+  .botoes {
+    top: 0px;
+    left: 5px;
+    width: 50px;
+    height: 50px;
+    gap: 5px;
+  }
+  .cabecalho {
+    padding: 0 20px;
+  }
+  #perfil {
+    width: 100px;
+    height: 100px;
+  }
+  .cabecalho .nome h2, .cabecalho .nome h3 {
+    margin: 10px;
+    font-size: 18px;
+  }
+  .cabecalho .menu li a {
+    font-size: 12px;
+  }
+  .sobre-mim, .techs, .projetos {
+    padding: 10px;
+  }
+  .projeto {
+    width: 100%;
+    margin: 5px 0;
+  }
+  .rodape {
+    padding: 10px 20px;
+    font-size: 8px;
+  }
 }
